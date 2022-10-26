@@ -107,13 +107,11 @@ public class ComputerDatabase_StepDef {
     public void userSeeInNewPageIncludedText(String editComputerText) {
 
         Assert.assertEquals(computerDatabase_page.editComputerText.getText(),editComputerText);
-
     }
 
 
     @And("User click Save this computer button")
     public void userClickSaveThisComputerButton() {
-
         computerDatabase_page.saveThisComputerButton.click();
 
     }
@@ -121,7 +119,7 @@ public class ComputerDatabase_StepDef {
 
     @And("User click Delete this computer button")
     public void userClickDeleteThisComputerButton() {
-        
+
         computerDatabase_page.deleteThisComputerButton.click();
 
     }
