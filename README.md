@@ -65,6 +65,6 @@ Start to write all scenario included positive and negative scenarios.
 Used `tag` to run scenarios and codes.
 
 5.Implement all codes under the stepDefinitions package in `ComputerDatabaseStepDef` class.
-Get all snippet and write your codes. And also write your 
+Get all snippets and write your codes. And also write your 
 
 6.Under the pages 
