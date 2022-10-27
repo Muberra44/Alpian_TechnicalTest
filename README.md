@@ -4,7 +4,9 @@
 
 ### Steps to Create Project
 1.Create a maven project called `AlpianTechnicalTest`
+
 2. Under `pom.xml`
+
     1. add below dependencies section
 
 ```
@@ -51,7 +53,7 @@
 
 ```
 
-3.Create a package called `com` under `src/test/java`
+3.Create a package called `com` under `src/test/java`. I used this framework **Page Object Model** and I put my datas in corresponding classes.
 1. Under com create `alpian` packages and under alpian create `pages`
 packages
 2. Create a called `runners` packages, under alpian packages
@@ -77,4 +79,4 @@ Second ConfigurationReader class helps to control from configuration.properties.
 
 9.`configuration.properties` I centralized here important test datas and avoid hard coding in my framework.
 
-10 I have `runners` package and I have `CukesRunner` to run my codes and `FailedTestRunner` to run failed test cases.
+10 I have `runners` package and I have `CukesRunner` class to run my codes and `FailedTestRunner` class to run failed test cases.
