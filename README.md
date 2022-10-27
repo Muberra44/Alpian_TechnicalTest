@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+#ALPIAN TECHNICAL TASK
 
-    <groupId>org.example</groupId>
-    <artifactId>AlpianTechnicalTest</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
 
-    <dependencies>
+### Steps to Create Project
+1.Create a maven project called `AlpianTechnicalTest`
+2. Under `pom.xml`
+    1. add below dependencies section
+
+```
+<dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -54,4 +49,22 @@
     </dependencies>
 
 
-</project>
+```
+
+3.Create a package called `com` under `src/test/java`
+1. under com create `alpian` packages and under alpian create `pages`
+packages
+2. create a called `runners` packages, under alpian packages
+3. create a called `stepDefinitions` packages, under alpian packages
+4. create a called `utilities` packages, under alpian packages
+5. Create a package called `resources` under `src/test` package
+6. Create a package calles `features` under resources folder 
+
+4.Create file `computerDatabase.feature` under features file. 
+Start to write all scenario included positive and negative scenarios.
+Used `tag` to run scenarios and codes.
+
+5.Implement all codes under the stepDefinitions package in `ComputerDatabaseStepDef` class.
+Get all snippet and write your codes. And also write your 
+
+6.Under the pages 

@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ComputerDatabase_Page {
+public class ComputerDatabasePage {
 
-    public ComputerDatabase_Page(){
+    public ComputerDatabasePage(){
 
         PageFactory.initElements(Driver.getDriver(),this);
 
@@ -26,7 +26,7 @@ public class ComputerDatabase_Page {
     public WebElement introducedBox;
 
     @FindBy(name = "discontinued")
-    public WebElement discountedBox;
+    public WebElement discontinuedBox;
 
     @FindBy(name = "company")
     public WebElement companyName;
