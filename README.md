@@ -46,7 +46,7 @@
             <version>7.3.0</version>
         </dependency>
 
-    </dependencies>
+    </dependencies> 
 
 
 ```
@@ -67,4 +67,14 @@ Used `tag` to run scenarios and codes.
 5.Implement all codes under the stepDefinitions package in `ComputerDatabaseStepDef` class.
 Get all snippets and write your codes. And also write your 
 
-6.Under the pages 
+6.Under the pages packages I created page class and I wrote my WebElements.
+
+7.Then I created object from step definitions class and I start to write my codes according to my scenarios
+
+8 I have utilities package which is included `Driver` class and `ConfigurationReader` class.
+First Driver class helps to control my driver what I want with Singleton Design Pattern.
+Second ConfigurationReader class helps to control from configuration.properties.
+
+9.`configuration.properties` I centralized here important test datas and avoid hard coding in my framework.
+
+10 I have `runners` package and I have `CukesRunner` to run my codes and `FailedTestRunner` to run failed test cases.
