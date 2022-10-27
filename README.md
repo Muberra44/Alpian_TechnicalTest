@@ -52,13 +52,13 @@
 ```
 
 3.Create a package called `com` under `src/test/java`
-1. under com create `alpian` packages and under alpian create `pages`
+1. Under com create `alpian` packages and under alpian create `pages`
 packages
-2. create a called `runners` packages, under alpian packages
-3. create a called `stepDefinitions` packages, under alpian packages
-4. create a called `utilities` packages, under alpian packages
+2. Create a called `runners` packages, under alpian packages
+3. Create a called `stepDefinitions` packages, under alpian packages
+4. Create a called `utilities` packages, under alpian packages
 5. Create a package called `resources` under `src/test` package
-6. Create a package calles `features` under resources folder 
+6. Create a package called `features` under resources folder 
 
 4.Create file `computerDatabase.feature` under features file. 
 Start to write all scenario included positive and negative scenarios.
